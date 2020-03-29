@@ -7,6 +7,19 @@ and open the template in the editor.
     Created on : 24/03/2020, 20:17:56
     Author     : paulo
 */
+
+.card-width{
+    width: 18rem;
+}
+
+.icon-width{
+    width: 9rem;
+}
+
+.card-width-perfil{
+    width: 15rem;
+}
+
 .card:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */

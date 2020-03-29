@@ -2,7 +2,7 @@
     <a class="navbar-brand text-white" href="principal.jsp">
         <img src="../img/logo.png" class="d-inline-block align-baseline" height="16" width="97"> 
     </a>
-    <a class="navbar-toggler text-white border-light" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <a  href="" class="navbar-toggler text-white border-light" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars fa-lg"></i>
     </a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
