@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>UsuarioServlet</servlet-name>
+        <servlet-class>servlet.UsuarioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CadastrarProjetoServlet</servlet-name>
+        <servlet-class>servlet.CadastrarProjetoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ExcluirProjetoServlet</servlet-name>
+        <servlet-class>servlet.ExcluirProjetoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AlterarProjetoServlet</servlet-name>
+        <servlet-class>servlet.AlterarProjetoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsuarioServlet</servlet-name>
+        <url-pattern>/UsuarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CadastrarProjetoServlet</servlet-name>
+        <url-pattern>/CadastrarProjetoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ExcluirProjetoServlet</servlet-name>
+        <url-pattern>/ExcluirProjetoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AlterarProjetoServlet</servlet-name>
+        <url-pattern>/AlterarProjetoServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

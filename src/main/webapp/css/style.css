@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2020, 20:17:56
+    Author     : paulo
+*/
+
+#minhaTabela tr td{
+    cursor: pointer;
+}
+
+/**Cor quando selecionado**/
+#minhaTabela tr.selecionado td{
+    background-color: #46c948;
+    opacity: 90%;
+}
+
+.card-width{
+    width: 18rem;
+}
+
+.icon-width{
+    width: 9rem;
+}
+
+.card-width-perfil{
+    width: 15rem;
+}
+
+.card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.card-horizontal:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.noZoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.0); 
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.bg-white{
+    background-color: white
+}
+
+.text-green{
+    color: #43A046
+}
+
+.bg-green{
+    background-color: #43A046
+}
+
+body{
+    background-color: #f8f9fa
+}
+
+.one-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.autores-img {
+    width: 155px;
+    height: 155px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.publicacao-img {
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cadastroP-img {
+    max-height: 260px;
+    object-fit: cover;
+    object-position: center;
+}

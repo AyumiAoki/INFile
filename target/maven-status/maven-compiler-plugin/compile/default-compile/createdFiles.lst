@@ -1,0 +1,13 @@
+model\dao\UsuarioDAO.class
+servlet\AlterarProjetoServlet.class
+model\bean\AutorProjeto.class
+model\bean\Usuario.class
+util\ConnectionFactory.class
+servlet\CadastrarProjetoServlet.class
+servlet\UsuarioServlet.class
+model\dao\AutorProjetoDAO.class
+model\bean\Projeto.class
+model\dao\BaseEntity.class
+model\dao\GenericDAO.class
+model\dao\ProjetoDAO.class
+servlet\ExcluirProjetoServlet.class

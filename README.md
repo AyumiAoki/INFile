@@ -1,2 +1,1 @@
-# INFile
-Repositório Institucional do IFAM
+# registros-pedagogicos
